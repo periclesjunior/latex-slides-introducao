@@ -3,7 +3,9 @@ Slides sobre introdução ao Latex
 
 Pacotes necessários para sistemas Debian like:
 
-aptitude install texlive-base texlive-extra-utils latexila abntex
+```
+aptitude install texlive-base texlive-extra-utils texlive-latex-extra latexila abntex
+```
 
 Obs: latexila (IDE) opcional, o necessário mesmo é o latexmk que é dependência dele:
 
@@ -15,4 +17,6 @@ latexmk
 
 Para compilar (terminal):
 
+```
 $ make
+```
